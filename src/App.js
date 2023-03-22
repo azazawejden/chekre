@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
@@ -12,7 +11,7 @@ function BasicExample() {
         <Form.Label>first-name</Form.Label>
         <Form.Control type="first-name" placeholder="first-name" />
       </Form.Group>
-      
+
       <Form.Group className="mb-3" controlId="formBasicSecond-name">
         <Form.Label>second-name</Form.Label>
         <Form.Control type="second-name" placeholder="second-name" />
