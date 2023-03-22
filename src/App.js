@@ -8,6 +8,21 @@ import Form from 'react-bootstrap/Form';
 function BasicExample() {
   return (
     <Form>
+      <Form.Group className="mb-3" controlId="formBasicFirst-name">
+        <Form.Label>first-name</Form.Label>
+        <Form.Control type="first-name" placeholder="first-name" />
+      </Form.Group>
+      
+      <Form.Group className="mb-3" controlId="formBasicSecond-name">
+        <Form.Label>second-name</Form.Label>
+        <Form.Control type="second-name" placeholder="second-name" />
+      </Form.Group>
+
+      <Form.Group className="mb-3" controlId="formBasicYour-adresse">
+        <Form.Label>your-adresse</Form.Label>
+        <Form.Control type="your-adresse" placeholder="your-adresse" />
+      </Form.Group>
+
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
         <Form.Control type="email" placeholder="Enter email" />
